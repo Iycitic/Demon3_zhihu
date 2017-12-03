@@ -1,0 +1,234 @@
+<!DOCTYPY html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>知乎</title>
+        <style>
+            ul {
+                list-style-type:none;
+                margin:0;
+                padding:0;
+            }   
+            li{
+                float: left;
+            }
+            .top-nav a:link,.top-nav a:visited{
+                color: rgba(104, 102, 102, 0.867);
+                font-size: 15px;
+                width: 100px;
+                padding: 15px;
+                text-decoration:none;
+            }
+            .top-nav a:hover,.top-nav a:active{
+                color: black;
+            }
+            .top-nav{
+                margin: 0 0 10px 0;   
+                width: auto;
+                height: 50px;
+                list-style: none;
+                background-color: #ffffff;
+                border-radius: 6px;
+                box-shadow: 0 1px 10px #777;
+                text-align: center;
+            }
+            .top-nav ul{
+                display: inline-block;
+            }
+            .main-content{
+                margin: 0 auto;
+                width: 1000px;
+                height: auto;
+            }
+            .main-body{
+                margin: 0 10px 0 0;
+                width: 695px;
+                height: auto;
+                float:left; 
+            }
+            .left-nav{
+                margin: 0 0 10px 0;
+                width: 695px;
+                height: 60px;
+                list-style: none;
+                background-color: #ffffff;
+                border-radius: 6px;
+                box-shadow: 0 1px 10px #777;
+                text-align: center;
+            }
+            .left-nav ul li:last-child{
+                float: right;
+            }
+            .left-nav a:link,.left-nav a:visited{
+                color: black;
+                font-size: 18px;
+                width: 100px;
+                padding: 15px;
+                text-decoration:none;
+            }
+            .article{
+                margin: 0 0 10px 0;
+                width: 695px;
+                height: auto;
+                list-style: none;
+                background-color: #ffffff;
+            }
+            .txt{
+                margin: 0 0 10px 0;
+                padding: 10px;
+                width: 675px;
+                height: 245px;
+                list-style: none;
+                background-color: #ffffff;
+                border-radius: 6px;
+                box-shadow: 0 1px 10px #777;
+            }
+            .service-center{
+                margin: 0;
+                width: 295px;
+                float: right;
+            }
+            .public-center{
+                margin: 0 0 10px 0;
+                width: 295px;
+                height: 175px;
+                list-style: none;
+                background-color: #ffffff;
+                border-radius: 6px;
+                box-shadow: 0 1px 10px #777;
+                text-align: center;
+            }
+            .public-center li{
+                width: 80px;
+                height: 91px;
+            }
+            .public-center ul li a:link,.public-center ul li a:visited{
+                color: gray;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            .personal-center li{         
+                width: 295px;
+                height: 40px;
+                clear: both;
+            }
+            .personal-center ul li:first-child{
+                margin: 15px 0 0 0;
+            }
+            .personal-center{
+                margin: 0 0 10px 0;
+                width: 295px;
+                height: 256px;
+                list-style: none;
+                background-color: #ffffff;
+                border-radius: 6px;
+                box-shadow: 0 1px 10px #777;
+            }
+            .personal-center ul li a:link,.personal-center ul li a:visited{
+                color: gray;
+                background-color: white;
+                font-size: 15px;
+                padding: 10px;
+                width: 295px;
+                text-decoration: none;
+                text-transform:uppercase;
+            }
+            .personal-center ul li a:hover,.personal-center ul li a:active{
+                background: rgb(223, 218, 218);
+                width: 295px;
+            }
+            .clearfix:after{
+                content: '';
+                clear: both;
+                display: block;
+                height: 0;
+                overflow: hidden;
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <nav>
+                <div class="top-nav">
+                    <ul>
+                        <li><a href="">知乎</a></li>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">发现</a></li>
+                        <li><a href="">话题</a></li>
+                        <li><input type="txt" /></li>
+                        <li><button type="submit">提交</button></li>
+                        <li><a href="">A</a></li>
+                        <li><a href="">B</a></li>
+                        <li><a href="">C</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-content">
+                <div>
+                    <div>
+                        <div class="main-body clearfix">
+                            <nav>
+                                <div class="left-nav clearfix">
+                                    <ul>
+                                        <li><a href="">提问</a></li>
+                                        <li><a href="">回答</a></li>
+                                        <li><a href="">写文章</a></li>
+                                        <li><a href="">写想法</a></li>
+                                        <li><a href="">草稿</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="article">
+                                <div class="txt">
+                                    <p>话题来自：<a href="">程序员</a></p>
+                                    <h2>A</h2>
+                                    <p>
+                                        类选择器允许以一种独立于文档元素的方式来指定样式。
+                                        该选择器可以单独使用，也可以与其他元素结合使用。
+                                        提示：只有适当地标记文档后，才能使用这些选择器，所以使用这两种选择器通常需要先做一些构想和计划。
+                                        要应用样式而不考虑具体设计的元素，最常用的方法就是使用类选择器。
+                                    </p>
+                                </div>
+                                <div class="txt">
+                                    <p>话题来自：<a href="">程序员</a></p>
+                                    <h2>A</h2>
+                                    <p>
+                                        类选择器允许以一种独立于文档元素的方式来指定样式。
+                                        该选择器可以单独使用，也可以与其他元素结合使用。
+                                        提示：只有适当地标记文档后，才能使用这些选择器，所以使用这两种选择器通常需要先做一些构想和计划。
+                                        要应用样式而不考虑具体设计的元素，最常用的方法就是使用类选择器。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-center clearfix">
+                            <div class="public-center">
+                                <ul>
+                                    <li><a href="">Live</a></li>
+                                    <li><a href="">书店</a></li>
+                                    <li><a href="">圆桌</a></li>
+                                    <li><a href="">专题</a></li>
+                                    <li><a href="">付费资讯</a></li>
+                                </ul>
+                            </div>
+                            <div class="personal-center">
+                                <ul>
+                                    <li><a href="">我的收藏</a></li>
+                                    <li><a href="">我关注的问题</a></li>
+                                    <li><a href="">我的邀请</a></li>
+                                    <li><a href="">社区服务中心</a></li>
+                                    <li><a href="">版权服务中心</a></li>
+                                    <li><a href="">公共编辑动态</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>  
+    </body>
+</html>
